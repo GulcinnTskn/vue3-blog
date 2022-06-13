@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "fullName": "gülçin taşkın",
+      "userName": "glcn",
+      "password": "0582b93d8eabb68e7a097690c9defe3b0fd4051a",
+      "id": 1,
+      "likes": [],
+      "blogs": [
+        2
+      ]
+    },
+    {
+      "fullName": "fatih taşkın",
+      "userName": "fatih",
+      "password": "0582b93d8eabb68e7a097690c9defe3b0fd4051a",
+      "id": 2
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Deneme 1",
+      "url": "www.deneme.com",
+      "categoryId": "1",
+      "description": "Spor kategorisine ait bir deneme bloğu.",
+      "userId": 1,
+      "created_at": "2022-06-13T12:42:26.106Z",
+      "id": 1
+    },
+    {
+      "title": "Deneme2",
+      "url": "www.deneme2.com",
+      "categoryId": "2",
+      "description": "Yaşamla ilgili deneme bloğu.",
+      "userId": 1,
+      "created_at": "2022-06-13T12:46:16.325Z",
+      "id": 2
+    },
+    {
+      "title": "Deneme 3",
+      "url": "www.deneme3.com",
+      "categoryId": "5",
+      "description": "Ekonomi ile ilgili açıklama",
+      "userId": 2,
+      "created_at": "2022-06-13T13:27:00.482Z",
+      "id": 3
+    },
+    {
+      "title": "Deneme 4",
+      "url": "www.deneme4.com",
+      "categoryId": "4",
+      "description": "gündemle ilgili deneme açıklaması",
+      "userId": 1,
+      "created_at": "2022-06-13T13:43:23.860Z",
+      "id": 4
+    },
+    {
+      "title": "deneme5",
+      "url": "www.deneme5.com",
+      "categoryId": "4",
+      "description": "deneme5 açıklama",
+      "userId": 1,
+      "created_at": "2022-06-13T13:57:59.347Z",
+      "id": 5
+    },
+    {
+      "title": "deneme6",
+      "url": "www.deneme6.com",
+      "categoryId": "1",
+      "description": "deneme 6 açıklama",
+      "userId": 1,
+      "created_at": "2022-06-13T14:01:24.625Z",
+      "id": 6
+    },
+    {
+      "title": "deneme7",
+      "url": "www.deneme7.com",
+      "categoryId": "3",
+      "description": "sağlıkla ilgili açıklama",
+      "userId": 1,
+      "created_at": "2022-06-13T14:03:30.961Z",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Spor",
+      "id": 1
+    },
+    {
+      "name": "Yaşam",
+      "id": 2
+    },
+    {
+      "name": "Sağlık",
+      "id": 3
+    },
+    {
+      "name": "Gündem",
+      "id": 4
+    },
+    {
+      "name": "Ekonomi",
+      "id": 5
+    }
+  ]
+}
